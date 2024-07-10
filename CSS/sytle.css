@@ -1,0 +1,45 @@
+body {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(18, 113, 126, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+
+h1 {
+    font-size: 4.5rem;            
+    font-family: "Satisfy", cursive;
+    font-weight: 700;
+    font-style: normal;
+   
+}
+
+.breakLine{
+    border: .125rem snow dotted;
+}
+h2{
+    font-size: 1.5625rem; 
+        background: -webkit-linear-gradient(0.25turn , snow, grey);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+.bookfocus:focus {
+    border-color: grey;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px grey;
+  }
+  .submit{
+    background-color: snow;
+    border: snow;
+    color: black;
+  }
+  .submit:hover{
+    background-color:grey;
+  }
+.animation{
+  background-color: inherit;
+  width: 50%;
+  background-color: snow;
+  margin: auto  ;
+  transition: width 1s;
+}
+.animation:hover{
+  background-color: snow;
+  width: 100%;
+}
