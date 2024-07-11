@@ -34,12 +34,12 @@ function displayBook()
     for(var i = 0 ; i < bookList.length ; i++)
     {
         container += ` <div class="col-md-3 my-4">
-                <p class="text-white h6">Index</p>
+                <p class="text-white h6">Website Name</p>
                 <hr>
                 <p class="text-white">${bookList[i].bookmark}</p>
             </div>
             <div class="col-md-3 my-4">
-                <p class="text-white h6">Website Name</p>
+                <p class="text-white h6">Index</p>
                 <hr>
                 <p class="text-white">${bookList[i].url}</p>
             </div>
